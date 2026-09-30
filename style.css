@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fee9e9;
+}
+header{
+    display: flex;
+    text-align: center;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: black;
+    font-weight: 900;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:6rem ;
+    padding: 4rem;
+}
+.question34-container,
+.question33-container,
+.question32-container,
+.question31-container,
+.question30-container,
+.question29-container,
+.question28-container,
+.question27-container,
+.question26-container,
+.question25-container,
+.question24-container,
+.question23-container,
+.question22-container,
+.question21-container,
+.question20-container,
+.question19-container,
+.question18-container,
+.question17-container,
+.question16-container,
+.question15-container,
+.question14-container,
+.question13-container,
+.question12-container,
+.question11-container,
+.question10-container,
+.question9-container,
+.question8-container,
+.question7-container,
+.question6-container,
+.question5-container,
+.question4-container,
+.question3-container,
+.question2-container,
+.question1-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid red;
+}
+.question34-heading,
+.question33-heading,
+.question32-heading,
+.question31-heading,
+.question30-heading,
+.question29-heading,
+.question28-heading,
+.question27-heading,
+.question26-heading,
+.question25-heading,
+.question24-heading,
+.question23-heading,
+.question22-heading,
+.question21-heading,
+.question20-heading,
+.question19-heading,
+.question18-heading,
+.question17-heading,
+.question16-heading,
+.question15-heading,
+.question14-heading,
+.question13-heading,
+.question12-heading,
+.question11-heading,
+.question10-heading,
+.question9-heading,
+.question0-heading,
+.question7-heading,
+.question6-heading,
+.question5-heading,
+.question4-heading,
+.question3-heading,
+.question2-heading,
+.question1-heading{
+    text-align: center;
+}
+.question34-body,
+.question33-body,
+.question32-body,
+.question31-body,
+.question30-body,
+.question29-body,
+.question28-body,
+.question27-body,
+.question26-body,
+.question25-body,
+.question24-body,
+.question23-body,
+.question22-body,
+.question21-body,
+.question20-body,
+.question19-body,
+.question18-body,
+.question17-body,
+.question16-body,
+.question15-body,
+.question14-body,
+.question13-body,
+.question12-body,
+.question11-body,
+.question10-body,
+.question9-body,
+.question8-body,
+.question7-body,
+.question6-body,
+.question5-body,
+.question4-body,
+.question3-body,
+.question2-body,
+.question1-body{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.question34-subtitle,
+.question33-subtitle,
+.question32-subtitle,
+.question31-subtitle,
+.question30-subtitle,
+.question29-subtitle,
+.question28-subtitle,
+.question27-subtitle,
+.question26-subtitle,
+.question25-subtitle,
+.question24-subtitle,
+.question23-subtitle,
+.question22-subtitle,
+.question21-subtitle,
+.question20-subtitle,
+.question19-subtitle,
+.question18-subtitle,
+.question17-subtitle,
+.question16-subtitle,
+.question15-subtitle,
+.question14-subtitle,
+.question13-subtitle,
+.question12-subtitle,
+.question11-subtitle,
+.question10-subtitle,
+.question9-subtitle,
+.question8-subtitle,
+.question7-subtitle,
+.question7-subtitle,
+.question5-subtitle,
+.question4-subtitle,
+.question3-subtitle,
+.question2-subtitle,
+.question1-subtitle{
+font-weight: 600;
+
+}
+#question34-num,
+#question33-num,
+#question32-num,
+#question31-num,
+#question31-num,
+#question30-num,
+#question29-num,
+#question28-num,
+#question27-num,
+#question26-num,
+#question25-num,
+#question24-num,
+#question23-num,
+#question22-num,
+#question21-num,
+#question20-num,
+#question19-num,
+#question18-num,
+#question17-num,
+#question16-num,
+#question15-num,
+#question14-num,
+#question13-num,
+#question12-num,
+#question11-num,
+#question10-num,
+#question9-num,
+#question8-num,
+#question7-num,
+#question6-num,
+#question5-num,
+#question4-num,
+#question3-num,
+#question2-num,
+#question1-num{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid red;
+
+}
+.question34-button,
+.question33-button,
+.question32-button,
+.question31-button,
+.question30-button,
+.question29-button,
+.question28-button,
+.question27-button,
+.question26-button,
+.question25-button,
+.question24-button,
+.question23-button,
+.question22-button,
+.question21-button,
+.question20-button,
+.question19-button,
+.question18-button,
+.question17-button,
+.question16-button,
+.question15-button,
+.question14-button,
+.question13-button,
+.question12-button,
+.question12-button,
+.question11-button,
+.question10-button,
+.question9-button,
+.question8-button,
+.question7-button,
+.question6-button,
+.question5-button,
+.question4-button,
+.question3-button,
+.question2-button,
+.question1-button{
+     padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.26);
+    font-size: 1rem;
+    font-weight: 700;
+}

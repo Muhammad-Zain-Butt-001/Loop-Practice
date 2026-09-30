@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Practice Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loop Practice Questions</h1>
+    </header>
+    <main>
+<section>
+            <!-- print number from 1 to 10 -->
+            <div class="question1-container">
+
+    <div class="question1-heading">
+        <h2>Print Numbers</h2>
+    </div>
+
+    <div class="question1-body">
+
+        <p>
+            Enter a number below. The loop will print all numbers
+            starting from <strong>1</strong> up to the number you enter.
+        </p>
+
+        <label for="question1-num" class="question1-subtitle">
+            Enter the number where the loop should stop:
+        </label>
+
+        <input 
+            id="question1-num" 
+            type="number" 
+            placeholder="Example: 10"
+        >
+
+        <button class="question1-button" onclick="printNumber()">
+            Print Numbers
+        </button>
+
+        <div id="question1-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+            <div class="question2-container">
+
+    <div class="question2-heading">
+        <h2>Print Numbers in Reverse </h2>
+    </div>
+
+    <div class="question2-body">
+
+        <p>
+            Enter a number below. The loop will start from that number
+            and print all numbers in reverse order down to <strong>1</strong>.
+        </p>
+
+        <label for="question2-num" class="question2-subtitle">
+            Enter the number where the loop should start:
+        </label>
+
+        <input 
+            id="question2-num" 
+            type="number" 
+            placeholder="Example: 10"
+        >
+
+        <button class="question2-button" onclick="printReverseNumber()">
+            Print Numbers
+        </button>
+
+        <div id="question2-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+ <section>
+            <!-- print number from 1 to 10 -->
+      <div class="question3-container">
+
+    <div class="question3-heading">
+        <h2>Print Even Numbers</h2>
+    </div>
+
+    <div class="question3-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print all even numbers
+            from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question3-num" class="question3-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question3-num" 
+            type="number" 
+            placeholder="Example: 20"
+        >
+
+        <button class="question3-button" onclick="printEvenNumbers()">
+            Print Even Numbers
+        </button>
+
+        <div id="question3-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+            <div class="question4-container">
+
+    <div class="question4-heading">
+        <h2>Print Odd Numbers</h2>
+    </div>
+
+    <div class="question4-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print all odd numbers
+            from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question4-num" class="question4-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question4-num" 
+            type="number" 
+            placeholder="Example: 20"
+        >
+        <button class="question4-button" onclick="printOddNumbers()">
+            Print Odd Numbers
+        </button>
+        <div id="question4-result">
+            <h3>Result:</h3>
+        </div>
+    </div>
+</div>
+</section>
+<section>
+        <div class="question5-container">
+
+    <div class="question5-heading">
+        <h2>Print Multiples of 5</h2>
+    </div>
+
+    <div class="question5-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print all multiples of
+            <strong>5</strong> from <strong>5 to n</strong>.
+        </p>
+
+        <label for="question5-num" class="question5-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question5-num" 
+            type="number" 
+            placeholder="Example: 50"
+        >
+
+        <button class="question5-button" onclick="printMultiplesOfFive()">
+            Print Multiples
+        </button>
+
+        <div id="question5-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+    
+</div>
+<div class="question6-container">
+
+    <div class="question6-heading">
+        <h2>Print Every 3rd Number</h2>
+    </div>
+
+    <div class="question6-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print every 3rd number
+            starting from <strong>3</strong> up to <strong>n</strong>.
+        </p>
+
+        <label for="question6-num" class="question6-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question6-num" 
+            type="number" 
+            placeholder="Example: 30"
+        >
+
+        <button class="question6-button" onclick="printEveryThirdNumber()">
+            Print Numbers
+        </button>
+
+        <div id="question6-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question7-container">
+
+    <div class="question7-heading">
+        <h2>Print Squares of Numbers</h2>
+    </div>
+
+    <div class="question7-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print the squares of all numbers
+            from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question7-num" class="question7-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question7-num" 
+            type="number" 
+            placeholder="Example: 10"
+        >
+
+        <button class="question7-button" onclick="printSquares()">
+            Print Squares
+        </button>
+
+        <div id="question7-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question8-container">
+
+    <div class="question8-heading">
+        <h2>Print the Table  </h2>
+    </div>
+
+    <div class="question8-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print the multiplication table
+            of <strong>n</strong> from <strong>1 to 10</strong>.
+        </p>
+
+        <label for="question8-num" class="question8-subtitle">
+            Enter the number for the table:
+        </label>
+
+        <input 
+            id="question8-num" 
+            type="number" 
+            placeholder="Example: 5"
+        >
+
+        <button class="question8-button" onclick="printTable()">
+            Print Table
+        </button>
+
+        <div id="question8-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question9-container">
+    <div class="question9-heading">
+        <h2>Print Numbers Based on Even or Odd</h2>
+    </div>
+
+    <div class="question9-body">
+
+        <p>
+            Enter a number below. If the number is <strong>even</strong>,
+            print all even numbers from <strong>1</strong> up to that number.
+            If the number is <strong>odd</strong>, print all odd numbers from
+            <strong>1</strong> up to that number.
+        </p>
+
+        <label for="question9-num" class="question9-subtitle">
+            Enter a number:
+        </label>
+
+        <input 
+            id="question9-num" 
+            type="number" 
+            placeholder="Example: 10"
+        >
+
+        <button class="question9-button" onclick="printEvenOddNumbers()">
+            Print Numbers
+        </button>
+
+        <div id="question9-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question10-container">
+    <div class="question10-heading">
+        <h2>Print Numbers Divisible by 3 and 5</h2>
+    </div>
+    <div class="question10-body">
+        <p>
+            Use a <strong>for loop</strong> to print all numbers from
+            <strong>1 to n</strong> that are divisible by both
+            <strong>3</strong> and <strong>5</strong>.
+        </p>
+        <label for="question10-num" class="question10-subtitle">
+            Enter the ending number:
+        </label>
+        <input 
+            id="question10-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+        <button class="question10-button" onclick="printDivisibleNumbers()">
+            Print Numbers
+        </button>
+        <div id="question10-result">
+            <h3>Result:</h3>
+        </div>
+    </div>
+</div>
+</section>
+<section>
+    <div class="question11-container">
+
+    <div class="question11-heading">
+        <h2>Check Numbers Divisible by 5</h2>
+    </div>
+
+    <div class="question11-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print numbers from
+            <strong>1 to n</strong> and show whether each number is
+            <strong>divisible by 5</strong> or not.
+        </p>
+
+        <label for="question11-num" class="question11-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question11-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question11-button" onclick="checkDivisibleByFive()">
+            Check Numbers
+        </button>
+
+        <div id="question11-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question12-container">
+
+    <div class="question12-heading">
+        <h2>Check Pass or Fail</h2>
+    </div>
+
+    <div class="question12-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print numbers from
+            <strong>1 to n</strong>. Show <strong>"Pass"</strong> for
+            numbers greater than or equal to <strong>25</strong>, and
+            <strong>"Fail"</strong> for numbers below <strong>25</strong>.
+        </p>
+
+        <label for="question12-num" class="question12-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question12-num" 
+            type="number" 
+            placeholder="Example: 50"
+        >
+
+        <button class="question12-button" onclick="checkPassFail()">
+            Check Result
+        </button>
+
+        <div id="question12-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question13-container">
+
+    <div class="question13-heading">
+        <h2>Categorize Numbers</h2>
+    </div>
+
+    <div class="question13-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print numbers from
+            <strong>1 to n</strong> and categorize each number based on
+            its range:
+            <strong>1–30 = Small</strong>,
+            <strong>31–70 = Medium</strong>,
+            and
+            <strong>71–100 = Large</strong>.
+        </p>
+
+        <label for="question13-num" class="question13-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question13-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question13-button" onclick="categorizeNumbers()">
+            Categorize Numbers
+        </button>
+
+        <div id="question13-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question15-container">
+
+    <div class="question15-heading">
+        <h2>Identify Positive, Negative, and Zero Numbers</h2>
+    </div>
+
+    <div class="question15-body">
+
+        <p>
+            Use a <strong>for loop</strong> to print numbers from
+            <strong>1 to n</strong> and identify whether each number is
+            <strong>Positive</strong>, <strong>Negative</strong>, or
+            <strong>Zero</strong>.
+        </p>
+
+        <label for="question15-num" class="question15-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question15-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question15-button" onclick="identifyNumbers()">
+            Identify Numbers
+        </button>
+
+        <div id="question15-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question14-container">
+
+    <div class="question14-heading">
+        <h2>Count Even Numbers</h2>
+    </div>
+
+    <div class="question14-body">
+
+        <p>
+            Use a <strong>for loop</strong> to count how many even numbers
+            exist from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question14-num" class="question14-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question14-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question14-button" onclick="countEvenNumbers()">
+            Count Even Numbers
+        </button>
+
+        <div id="question14-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question16-container">
+
+    <div class="question16-heading">
+        <h2>Count Odd Numbers</h2>
+    </div>
+
+    <div class="question16-body">
+
+        <p>
+            Use a <strong>for loop</strong> to count how many odd numbers
+            exist from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question16-num" class="question16-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question16-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question16-button" onclick="countOddNumbers()">
+            Count Odd Numbers
+        </button>
+
+        <div id="question16-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question17-container">
+
+    <div class="question17-heading">
+        <h2>Count Numbers Divisible by 5</h2>
+    </div>
+
+    <div class="question17-body">
+
+        <p>
+            Use a <strong>for loop</strong> to count how many numbers
+            from <strong>1 to n</strong> are divisible by <strong>5</strong>.
+        </p>
+
+        <label for="question17-num" class="question17-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question17-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question17-button" onclick="countDivisibleByFive()">
+            Count Numbers
+        </button>
+
+        <div id="question17-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question18-container">
+
+    <div class="question18-heading">
+        <h2>Find the Sum of Numbers</h2>
+    </div>
+
+    <div class="question18-body">
+
+        <p>
+            Use a <strong>for loop</strong> to calculate the sum of all numbers
+            from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question18-num" class="question18-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question18-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question18-button" onclick="findSum()">
+            Calculate Sum
+        </button>
+
+        <div id="question18-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question19-container">
+
+    <div class="question19-heading">
+        <h2>Find the Sum of Even Numbers</h2>
+    </div>
+
+    <div class="question19-body">
+
+        <p>
+            Use a <strong>for loop</strong> to calculate the sum of all
+            <strong>even numbers</strong> from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question19-num" class="question19-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question19-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question19-button" onclick="sumEvenNumbers()">
+            Calculate Sum
+        </button>
+
+        <div id="question19-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question20-container">
+
+    <div class="question20-heading">
+        <h2>Find the Sum of Odd Numbers</h2>
+    </div>
+
+    <div class="question20-body">
+
+        <p>
+            Use a <strong>for loop</strong> to calculate the sum of all
+            <strong>odd numbers</strong> from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question20-num" class="question20-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question20-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question20-button" onclick="sumOddNumbers()">
+            Calculate Sum
+        </button>
+
+        <div id="question20-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question21-container">
+
+    <div class="question21-heading">
+        <h2>Find the Sum of Numbers Divisible by 3</h2>
+    </div>
+
+    <div class="question21-body">
+
+        <p>
+            Use a <strong>for loop</strong> to calculate the sum of all
+            numbers divisible by <strong>3</strong> from <strong>1 to n</strong>.
+        </p>
+
+        <label for="question21-num" class="question21-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question21-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question21-button" onclick="sumDivisibleByThree()">
+            Calculate Sum
+        </button>
+
+        <div id="question21-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question22-container">
+
+    <div class="question22-heading">
+        <h2>Count Numbers Greater Than 50</h2>
+    </div>
+
+    <div class="question22-body">
+
+        <p>
+            Use a <strong>for loop</strong> to count how many numbers
+            from <strong>1</strong> up to the given number are
+            <strong>greater than 50</strong>.
+        </p>
+
+        <label for="question22-num" class="question22-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question22-num" 
+            type="number" 
+            placeholder="Example: 100"
+        >
+
+        <button class="question22-button" onclick="countGreaterThanFifty()">
+            Count Numbers
+        </button>
+
+        <div id="question22-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question23-container">
+
+    <div class="question23-heading">
+        <h2>Find the First Number Divisible by 7</h2>
+    </div>
+
+    <div class="question23-body">
+
+        <p>
+            Enter a number below. The program will use a
+            <strong>for loop</strong> to find the first number between
+            <strong>1</strong> and your given number that is divisible by
+            <strong>7</strong>.
+        </p>
+
+        <label for="question23-num" class="question23-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question23-num"
+            type="number"
+            placeholder="Example: 100"
+        >
+
+        <button 
+            class="question23-button" 
+            onclick="findLastDivisibleBySeven()"
+        >
+            Find Number
+        </button>
+
+        <div id="question23-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question24-container">
+
+    <div class="question24-heading">
+        <h2>Find the First Number Divisible by 3 and 5</h2>
+    </div>
+
+    <div class="question24-body">
+
+        <p>
+            Enter a number below. The program will use a
+            <strong>for loop</strong> to find the first number between
+            <strong>1</strong> and your given number that is divisible by
+            both <strong>3</strong> and <strong>5</strong>.
+        </p>
+
+        <label for="question24-num" class="question2-subtitle">
+            Enter the ending number:
+        </label>
+
+        <input 
+            id="question24-num"
+            type="number"
+            placeholder="Example: 100"
+        >
+
+        <button 
+            class="question24-button" 
+            onclick="findFirstDivisibleByThreeAndFive()"
+        >
+            Find Number
+        </button>
+
+        <div id="question24-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question25-container">
+
+    <div class="question25-heading">
+        <h2>Calculate the Factorial of a Number</h2>
+    </div>
+
+    <div class="question25-body">
+
+        <p>
+            Enter a number below. Use a <strong>for loop</strong> to calculate
+            its <strong>factorial</strong>.
+        </p>
+
+        <label for="question25-num" class="question25-subtitle">
+            Enter a number:
+        </label>
+
+        <input 
+            id="question25-num" 
+            type="number" 
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question25-button" 
+            onclick="calculateFactorial()"
+        >
+            Calculate Factorial
+        </button>
+
+        <div id="question25-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question26-container">
+
+    <div class="question26-heading">
+        <h2>Print a Square Pattern Using Nested For Loops</h2>
+    </div>
+
+    <div class="question26-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a square pattern.
+            The number you enter will determine the number of
+            <strong>rows</strong> and the number of <strong>stars in each row</strong>.
+        </p>
+
+        <label for="question26-num" class="question26-subtitle">
+            Enter the size of the square:
+        </label>
+
+        <input 
+            id="question26-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question26-button"
+            onclick="printSquarePattern()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question26-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question27-container">
+
+    <div class="question27-heading">
+        <h2>Print an Increasing Star Pattern</h2>
+    </div>
+
+    <div class="question27-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create an increasing star
+            pattern. Each new row will contain <strong>one more star</strong>
+            than the previous row.
+        </p>
+
+        <label for="question27-num" class="question27-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question27-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question27-button"
+            onclick="printIncreasingStars()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question27-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question28-container">
+
+    <div class="question28-heading">
+        <h2>Print a Decreasing Star Pattern</h2>
+    </div>
+
+    <div class="question28-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a decreasing star
+            pattern. Each new row will contain <strong>one less star</strong>
+            than the previous row.
+        </p>
+
+        <label for="question28-num" class="question28-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question28-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question28-button"
+            onclick="printDecreasingStars()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question28-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question29-container">
+
+    <div class="question29-heading">
+        <h2>Print an Increasing Number Pattern</h2>
+    </div>
+
+    <div class="question29-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create an increasing number
+            pattern. Each row will start from <strong>1</strong> and print
+            numbers up to the row number.
+        </p>
+
+        <label for="question29-num" class="question29-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question29-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question29-button"
+            onclick="printNumberPattern()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question29-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question30-container">
+
+    <div class="question30-heading">
+        <h2>Print a Repeated Number Pattern</h2>
+    </div>
+
+    <div class="question30-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a number pattern.
+            Each row will print the <strong>same number repeatedly</strong>,
+            and the number of repetitions will increase with each row.
+        </p>
+
+        <label for="question30-num" class="question30-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question30-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question30-button"
+            onclick="printRepeatedNumberPattern()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question30-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question31-container">
+
+    <div class="question31-heading">
+        <h2>Print a Decreasing Number Pattern</h2>
+    </div>
+
+    <div class="question31-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a decreasing number
+            pattern. Each new row will contain <strong>one less number</strong>
+            than the previous row, starting from <strong>1</strong>.
+        </p>
+
+        <label for="question31-num" class="question31-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question31-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question31-button"
+            onclick="printReverseNumberPattern()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question31-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question32-container">
+
+    <div class="question32-heading">
+        <h2>Print a Right-Aligned Triangle</h2>
+    </div>
+
+    <div class="question32-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a right-aligned
+            triangle. Each row will contain <strong>one more star</strong>
+            than the previous row, with spaces added before the stars
+            to align them to the right.
+        </p>
+
+        <label for="question32-num" class="question32-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question32-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question32-button"
+            onclick="printRightAlignedTriangle()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question32-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<section>
+    <div class="question33-container">
+
+    <div class="question33-heading">
+        <h2>Print a Pyramid Pattern</h2>
+    </div>
+
+    <div class="question33-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a pyramid pattern.
+            Each row will contain <strong>one more level of stars</strong>,
+            with spaces before the stars to keep the pyramid centered.
+        </p>
+
+        <label for="question33-num" class="question33-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question33-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question33-button"
+            onclick="printPyramid()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question33-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="question34-container">
+
+    <div class="question34-heading">
+        <h2>Print a Reverse Pyramid Pattern</h2>
+    </div>
+
+    <div class="question34-body">
+
+        <p>
+            Enter a number below. The program will use
+            <strong>nested for loops</strong> to create a reverse pyramid.
+            Each new row will contain <strong>fewer stars</strong> than
+            the previous row, while spaces are added to keep the pyramid centered.
+        </p>
+
+        <label for="question34-num" class="question34-subtitle">
+            Enter the number of rows:
+        </label>
+
+        <input 
+            id="question34-num"
+            type="number"
+            placeholder="Example: 5"
+        >
+
+        <button 
+            class="question34-button"
+            onclick="printReversePyramid()"
+        >
+            Print Pattern
+        </button>
+
+        <div id="question34-result">
+            <h3>Result:</h3>
+        </div>
+
+    </div>
+
+</div>
+</section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
